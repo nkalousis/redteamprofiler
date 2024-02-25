@@ -1,0 +1,10 @@
+import{s as m,n as r}from"../chunks/scheduler.B-O3ZqnB.js";import{S as h,i as _,e as c,s as f,y as v,c as p,d as o,f as b,z as g,o as i,h as x,g as d}from"../chunks/index.BmE43Eg5.js";const y=!1,S=y,T=S,C=!0,M=Object.freeze(Object.defineProperty({__proto__:null,csr:T,prerender:C},Symbol.toStringTag,{value:"Module"}));function k(u){let e,n,t,l=`<h1>About this app</h1> <p>Αυτή η σελίδα αποτελεί την εργασία του Ασμία (ΤΗΓ) Νικολάου Καλούση (39082) για το Διακλαδικό 
+		Σχολείο Κυβερνοάμυνας του ΓΕΕΘΑ/Ε5. Προσπαθεί να μιμηθεί κάποια από τη λειτουργικότητα του &quot;Profiler&quot; 
+		του Cobalt Strike. Επειδή πλέον οι browsers δεν τρέχουν Java applets αυτό είναι πολύ πιο δύσκολο.
+		Χρησιμοποιεί αντί αυτού λοιπόν κάποιες γνωστές ευπάθειες των browsers όπως το WebRTC leaking 
+		για την αποκάλυψη της πραγματικής IP ενός client που θα επισκεφτεί τη σελίδα μας ή το Canvas
+		Fingerprint το οποίο χρησιμοποιεί τον καμβά για να δημιουργήσει ένα σχεδόν μοναδικό fingerprint
+		το οποίο μπορεί να αναγνωρίσει μοναδικά έναν browser.</p> <p>Σε αυτή την απλή μορφή, τα αποτελέσματα εμφανίζονται στην ίδια την σελίδα ενώ σε ένα πραγματικό
+		σενάριο, η σελίδα θα απέκρυπτε την πραγματική της αποστολή προφανώς με κάποιο περιεχόμενο το οποίο
+		θα είχε προετοιμαστεί κατάλληλα για να ανήκει στα ενδιαφέροντα του χρήστη/θύματος, ενώ η αποστολή
+		των αποτελεσμάτων θα γινόταν σε κάποιο κατάλληλο endpoint της Red Team.</p> <p>Η παρούσα σελίδα σχεδιάστηκε σε <a href="https://kit.svelte.dev">Svelte</a>.</p>`;return{c(){e=c("meta"),n=f(),t=c("div"),t.innerHTML=l,this.h()},l(a){const s=v("svelte-1ds1qyu",document.head);e=p(s,"META",{name:!0,content:!0}),s.forEach(o),n=b(a),t=p(a,"DIV",{class:!0,"data-svelte-h":!0}),g(t)!=="svelte-1xaoik1"&&(t.innerHTML=l),this.h()},h(){document.title="About",i(e,"name","description"),i(e,"content","About this app"),i(t,"class","text-column")},m(a,s){x(document.head,e),d(a,n,s),d(a,t,s)},p:r,i:r,o:r,d(a){a&&(o(n),o(t)),o(e)}}}class P extends h{constructor(e){super(),_(this,e,null,k,m,{})}}export{P as component,M as universal};
